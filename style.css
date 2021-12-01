@@ -1,0 +1,43 @@
+*{
+    background-color: #131313;
+}
+.nameOfGame {
+    color: #909090;
+    text-align: center;
+    padding-top: 80px; 
+    font-size: 3vw;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+ 
+   
+}
+.rock-button, .paper-button, .scissors-button {
+    max-width: 30%;
+    height: auto;
+    
+    
+}
+
+.score {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 2vw;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.user-score, .cpu-score {
+    padding: 10px;
+}
+
+.game-info {
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    padding-top: 80px;
+}
